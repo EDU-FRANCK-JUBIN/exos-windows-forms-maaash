@@ -16,7 +16,7 @@ namespace WindowsForms_Exo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calculatrice());
+            Application.Run(new Taquin());
         }
     }
 }

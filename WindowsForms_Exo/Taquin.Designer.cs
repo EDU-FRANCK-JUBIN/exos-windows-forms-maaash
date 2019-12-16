@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Taquin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -40,6 +41,9 @@
             this.mainPicture = new System.Windows.Forms.PictureBox();
             this.puzzleBox = new System.Windows.Forms.GroupBox();
             this.originalPicture = new System.Windows.Forms.GroupBox();
+            this.buttonShuffle = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.buttonQuit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -59,78 +63,98 @@
             this.pictureBox1.Location = new System.Drawing.Point(35, 305);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(166, 305);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(297, 305);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Location = new System.Drawing.Point(35, 174);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Location = new System.Drawing.Point(166, 174);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.Location = new System.Drawing.Point(297, 174);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
             this.pictureBox7.Location = new System.Drawing.Point(35, 43);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
             this.pictureBox8.Location = new System.Drawing.Point(166, 43);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
             this.pictureBox9.Location = new System.Drawing.Point(297, 43);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // mainPicture
             // 
-            this.mainPicture.Location = new System.Drawing.Point(34, 32);
+            this.mainPicture.Image = ((System.Drawing.Image)(resources.GetObject("mainPicture.Image")));
+            this.mainPicture.Location = new System.Drawing.Point(19, 70);
             this.mainPicture.Name = "mainPicture";
-            this.mainPicture.Size = new System.Drawing.Size(300, 300);
+            this.mainPicture.Size = new System.Drawing.Size(359, 307);
+            this.mainPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mainPicture.TabIndex = 9;
             this.mainPicture.TabStop = false;
             // 
@@ -162,11 +186,44 @@
             this.originalPicture.TabStop = false;
             this.originalPicture.Text = "Original";
             // 
+            // buttonShuffle
+            // 
+            this.buttonShuffle.Location = new System.Drawing.Point(574, 535);
+            this.buttonShuffle.Name = "buttonShuffle";
+            this.buttonShuffle.Size = new System.Drawing.Size(100, 32);
+            this.buttonShuffle.TabIndex = 12;
+            this.buttonShuffle.Text = "Shuffle";
+            this.buttonShuffle.UseVisualStyleBackColor = true;
+            this.buttonShuffle.Click += new System.EventHandler(this.buttonShuffle_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(738, 535);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 32);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // buttonQuit
+            // 
+            this.buttonQuit.Location = new System.Drawing.Point(884, 535);
+            this.buttonQuit.Name = "buttonQuit";
+            this.buttonQuit.Size = new System.Drawing.Size(89, 32);
+            this.buttonQuit.TabIndex = 14;
+            this.buttonQuit.Text = "Quit";
+            this.buttonQuit.UseVisualStyleBackColor = true;
+            this.buttonQuit.Click += new System.EventHandler(this.buttonQuit_Click);
+            // 
             // Taquin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(996, 619);
+            this.Controls.Add(this.buttonQuit);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonShuffle);
             this.Controls.Add(this.originalPicture);
             this.Controls.Add(this.puzzleBox);
             this.Name = "Taquin";
@@ -201,5 +258,8 @@
         private System.Windows.Forms.PictureBox mainPicture;
         private System.Windows.Forms.GroupBox puzzleBox;
         private System.Windows.Forms.GroupBox originalPicture;
+        private System.Windows.Forms.Button buttonShuffle;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonQuit;
     }
 }

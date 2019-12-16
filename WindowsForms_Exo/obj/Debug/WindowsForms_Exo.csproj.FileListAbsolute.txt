@@ -9,3 +9,4 @@ C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\Windows
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.exe
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.pdb
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Calculatrice.resources
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Taquin.resources
