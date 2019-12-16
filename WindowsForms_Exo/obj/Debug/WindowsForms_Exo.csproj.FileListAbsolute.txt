@@ -1,0 +1,11 @@
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.csprojAssemblyReference.cache
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Form1.resources
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Properties.Resources.resources
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.csproj.GenerateResource.cache
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.test.resources
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\WindowsForms_Exo.exe.config
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\WindowsForms_Exo.exe
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\WindowsForms_Exo.pdb
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.exe
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.pdb
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Calculatrice.resources
