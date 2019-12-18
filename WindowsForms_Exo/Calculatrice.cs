@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsForms_Exo
+namespace Calculatrice
 {
     public partial class Calculatrice : Form
     {
@@ -132,7 +132,6 @@ namespace WindowsForms_Exo
             if (textBoxScreen.Text.Contains("/0"))
             {
                 MessageBox.Show("Erreur division par 0 !");
-                throw (new DivideByZeroException());
             } else {
                 var temp = dt.Compute(textBoxScreen.Text, "");
                 textBoxResult.Text = temp.ToString();

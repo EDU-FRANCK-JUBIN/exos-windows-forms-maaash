@@ -76,8 +76,9 @@ namespace WindowsForms_Exo
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            System.Drawing.Image temp = pictureBox1.Image;
-            if (pictureBox2.Image == (Image)Properties.Resources._null.Ta)
+            Image temp = pictureBox1.Image;
+
+            if (pictureBox2.Image.ToString() == Properties.Resources._null.ToString())
             {
                 MessageBox.Show("Hello");
                 pictureBox1.Image = Properties.Resources._null;

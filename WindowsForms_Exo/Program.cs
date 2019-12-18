@@ -16,7 +16,7 @@ namespace WindowsForms_Exo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Taquin());
+            Application.Run(new QRCodeForm());
         }
     }
 }
