@@ -1,4 +1,4 @@
-﻿namespace Calculatrice
+﻿namespace WindowsForms_Exo
 {
     partial class Calculatrice
     {

@@ -11,7 +11,6 @@ C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\Windows
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Taquin.resources
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Exo_dbind.resources
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.DatasourceForm.resources
-C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\Calculatrice.Calculatrice.resources
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\Hexagonal.Hexagone.resources
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.QRCodeForm.resources
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\QRCoder.dll
@@ -44,3 +43,4 @@ C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\itext.s
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\itext.styledxmlparser.xml
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\bin\Debug\itext.svg.xml
 C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.PackagerForm.resources
+C:\Users\Chasse\source\repos\WindowsForms_Exo\WindowsForms_Exo\obj\Debug\WindowsForms_Exo.Calculatrice.resources

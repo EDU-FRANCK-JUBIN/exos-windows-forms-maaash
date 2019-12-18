@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Calculatrice
+namespace WindowsForms_Exo
 {
     public partial class Calculatrice : Form
     {

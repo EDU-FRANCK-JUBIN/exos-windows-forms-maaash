@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static WindowsForms_Exo.HexagonCalcul;
 
 namespace Hexagonal
 {
